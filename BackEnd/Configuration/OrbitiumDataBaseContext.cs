@@ -20,7 +20,8 @@ namespace BackEndForGame.Configuration
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Users>().HasKey(z => z.ID);
-            // юзер имеет одного игрок к одному юзеру, и игрок имеет FK user_id.
+
+            // Юзер имеет одного игрока к одному юзеру, и игрок имеет FK user_id.
             builder.Entity<Users>().
                 HasOne(x => x.player).
                 WithOne(y => y.user).
@@ -61,16 +62,3 @@ namespace BackEndForGame.Configuration
         }
     }
 }
-
-/*
-builder.Entity<Inventories>().
-    HasMany(x => x.items).
-    WithOne(y => y.inventory).HasForeignKey( x => x.inventory_id);
-*/
-
-//builder.Entity<Items>().HasKey(z => z.ID);
-/*
-builder.Entity<Items>().
-    HasOne(x => x.inventory).
-    WithMany(y => y.items).HasForeignKey(x => x.inventory_id);
-*/
