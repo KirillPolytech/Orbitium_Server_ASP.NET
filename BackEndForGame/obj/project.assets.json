@@ -1614,16 +1614,6 @@
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
         }
-      },
-      "DataBaseLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/DataBaseLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataBaseLibrary.dll": {}
-        }
       }
     }
   },
@@ -4759,16 +4749,11 @@
         "zstdsharp.port.0.7.1.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
-    },
-    "DataBaseLibrary/1.0.0": {
-      "type": "project",
-      "path": "../DataBaseLibrary/DataBaseLibrary.csproj",
-      "msbuildProject": "../DataBaseLibrary/DataBaseLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "DataBaseLibrary >= 1.0.0",
+      "F:\\Unity\\ASP.NET_SERVER\\DataBaseLibrary\\DataBaseLibrary.csproj",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.14",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.13",
@@ -4787,11 +4772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio Application\\BackEndForGame\\BackEndForGame\\BackEndForGame.csproj",
+      "projectUniqueName": "F:\\Unity\\ASP.NET_SERVER\\BackEndForGame\\BackEndForGame.csproj",
       "projectName": "BackEndForGame",
-      "projectPath": "D:\\Visual Studio Application\\BackEndForGame\\BackEndForGame\\BackEndForGame.csproj",
+      "projectPath": "F:\\Unity\\ASP.NET_SERVER\\BackEndForGame\\BackEndForGame.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio Application\\BackEndForGame\\BackEndForGame\\obj\\",
+      "outputPath": "F:\\Unity\\ASP.NET_SERVER\\BackEndForGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4808,8 +4793,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Visual Studio Application\\BackEndForGame\\DataBaseLibrary\\DataBaseLibrary.csproj": {
-              "projectPath": "D:\\Visual Studio Application\\BackEndForGame\\DataBaseLibrary\\DataBaseLibrary.csproj"
+            "F:\\Unity\\ASP.NET_SERVER\\DataBaseLibrary\\DataBaseLibrary.csproj": {
+              "projectPath": "F:\\Unity\\ASP.NET_SERVER\\DataBaseLibrary\\DataBaseLibrary.csproj"
             }
           }
         }
@@ -4896,5 +4881,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Не удалось найти сведения о проекте для \"F:\\Unity\\ASP.NET_SERVER\\DataBaseLibrary\\DataBaseLibrary.csproj\". Если вы используете Visual Studio, причина может заключаться в том, что проект выгружен или не является частью текущего решения. В этом случае выполните восстановление из командной строки. В противном случае причина может быть связана с тем, что файл проекта является недопустимым или отсутствуют целевые объекты, необходимые для восстановления.",
+      "libraryId": "F:\\Unity\\ASP.NET_SERVER\\DataBaseLibrary\\DataBaseLibrary.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

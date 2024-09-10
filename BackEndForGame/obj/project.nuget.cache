@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u18zxoyFrgzIu8IBit47ukJMu+mneTGVFqwCXc85qINPSj1RGMBuaRrO9erLcIDNCRjoTlD877LCLwNHrf9LuQ==",
-  "success": true,
-  "projectFilePath": "D:\\Visual Studio Application\\BackEndForGame\\BackEndForGame\\BackEndForGame.csproj",
+  "dgSpecHash": "MjJUIKOtRu6crs4RwEzRuRP50EmWVPqfrkuEgOK3sWmsds0iLugYj8NsK+onjTwAYL9dZQ4oswLnqRZbQhy5Sw==",
+  "success": false,
+  "projectFilePath": "F:\\Unity\\ASP.NET_SERVER\\BackEndForGame\\BackEndForGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -97,5 +97,15 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\zstdsharp.port\\0.7.1\\zstdsharp.port.0.7.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Не удалось найти сведения о проекте для \"F:\\Unity\\ASP.NET_SERVER\\DataBaseLibrary\\DataBaseLibrary.csproj\". Если вы используете Visual Studio, причина может заключаться в том, что проект выгружен или не является частью текущего решения. В этом случае выполните восстановление из командной строки. В противном случае причина может быть связана с тем, что файл проекта является недопустимым или отсутствуют целевые объекты, необходимые для восстановления.",
+      "libraryId": "F:\\Unity\\ASP.NET_SERVER\\DataBaseLibrary\\DataBaseLibrary.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
